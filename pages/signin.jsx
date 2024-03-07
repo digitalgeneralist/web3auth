@@ -9,7 +9,6 @@ function SignIn() {
   const { signMessageAsync } = useSignMessage();
   const { requestChallengeAsync } = useAuthRequestChallengeEvm();
 
-  console.log(requestChallengeAsync);
 
   const handleAuth = async () => {
     if (isConnected) {
